@@ -7,6 +7,10 @@
   color: white !important;
 }
 
+.bg-info {
+  background-color: coral !important;
+}
+
 #logo {
   float: left;
   font-size: 1.7em;
@@ -18,15 +22,25 @@
 
 #home-container {
   margin-top: 25px;
-  background-color: coral;
+  background-color: black;
 }
 
 .jumbotron {
-  background-image: asset-url('jumbo-copy.jpg');
+  margin-bottom: 0px;
+  margin-top: 50px;
+  background-image: asset-url('back.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 425px;
+  opacity: 0.8;
+  
+  p {
+    color: white;
+  }
+  h1 {
+    color: #27a844
+  }
 }
 
 html,
@@ -36,7 +50,7 @@ body {
 
 #page-content {
   flex: 1 0 auto;
-  background-color: rgb(117, 108, 108);
+  background-color: lightgray;
 }
 
 #sticky-footer {
