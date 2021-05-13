@@ -1,5 +1,8 @@
 @import 'bootstrap/dist/css/bootstrap';
 
+.medium-label {
+  background-color: lightgreen;
+}
 .navbar {
   background-color: black !important;
 }
@@ -22,7 +25,7 @@
 
 #home-container {
   margin-top: 25px;
-  background-color: black;
+  background-color: grey;
 }
 
 .jumbotron {
