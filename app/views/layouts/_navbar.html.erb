@@ -14,7 +14,7 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <%= link_to 'Your profile', user_path(current_user), class: "dropdown-item" %>
                 <%= link_to 'Edit your profile', edit_user_path(current_user), class: "dropdown-item" %>
-                <%= link_to 'Logout', logout_path, class: "nav-link", method: :delete , class: "dropdown-item" %>
+                <%= link_to 'Delete your account', user_path(current_user), method: :delete , class: "dropdown-item text-danger", data: { confirm: "Are you sure?" } %>
               </div>  
             </li>
           <% else %>
