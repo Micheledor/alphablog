@@ -1,24 +1,3 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Una volta caricato il programma sulla macchina locale, creato il database ```rails db:create```, effettuate le migrazioni ```rails db:migrate``` può essere lanciato su server locale con il comando ```rails s```.
